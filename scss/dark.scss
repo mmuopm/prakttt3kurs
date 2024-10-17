@@ -1,0 +1,180 @@
+@import "./blocks/header";
+@import "./blocks/footer";
+
+html.dark_style {
+  /* INDEX */
+  .block2 {
+    background-color: #2a2a2a;
+
+    h1,
+    h2,
+    .block2-cards h2,
+    .block2-cards p {
+      color: #fff;
+    }
+  }
+
+  .block4 {
+    background-color: #2a2a2a;
+
+    h1 {
+      color: #fff;
+    }
+
+    .block4-cards-top .card {
+      background-color: #696969;
+    }
+  }
+
+  /* --------------------------------------------------- */
+  /* ABOUT */
+  .main-about {
+    background-color: #2a2a2a;
+
+    h1,
+    .about-block1 p,
+    .about-block3 h1,
+    .about-block3 h2,
+    .about-block3 p {
+      color: #fff;
+    }
+
+    .about-block3-cards .card img {
+      border: 2px solid #fff;
+      border-radius: 20px;
+    }
+
+    .connection-button {
+      background-color: #fff;
+      color: #2a2a2a;
+    }
+
+    .connection-button:hover {
+      background-color: #696969;
+      color: #fff;
+    }
+  }
+
+  /* --------------------------------------------------- */
+  /* SERVICES */
+
+  .main-services {
+    background-color: #2a2a2a;
+
+    h1,
+    .services-cards .card h2,
+    .services-cards .card p {
+      color: #fff;
+    }
+
+    .services-cards .card {
+      background-color: #171717;
+    }
+
+    .services-cards .card-black {
+      background-color: #4e4e4e;
+    }
+
+    .connection-button {
+      background-color: #fff;
+      color: #2a2a2a;
+    }
+
+    .connection-button:hover {
+      background-color: #696969;
+      color: #fff;
+    }
+  }
+
+  /* ------------------------------------------------------------- */
+  /* CONTACTS*/
+  .main-contacts {
+    background-color: #2a2a2a;
+
+    h1,
+    .main-contacts-content h2,
+    .contacts-forma p,
+    .contacts-content-text p,
+    .contacts-content-text h3 {
+      color: #fff;
+    }
+
+    .contacts-forma button {
+      background-color: #fff;
+      color: #2a2a2a;
+    }
+
+    .contacts-forma button:hover {
+      background-color: #696969;
+      color: #fff;
+    }
+
+    .contacts-content img {
+      border: 2px solid #fff;
+      border-radius: 20px;
+    }
+
+    .contacts-content-text .social img {
+      background-color: #fff;
+      border-radius: 10%;
+    }
+  }
+
+  /* ------------------------------------------------------------- */
+  /* TRAINING*/
+  .main-training {
+    background-color: #2a2a2a;
+
+    h1 {
+      color: #fff;
+    }
+
+    .connection-button {
+      background-color: #fff;
+      color: #2a2a2a;
+    }
+
+    .connection-button:hover {
+      background-color: #696969;
+      color: #fff;
+    }
+  }
+
+  /* ------------------------------------------------------------- */
+  /* REQUEST */
+
+  .main-request {
+    background-color: #2a2a2a;
+
+    h1,
+    .request h2,
+    .request p,
+    .form-rate legend,
+    .form-rate label,
+    table thead th {
+      color: #fff;
+    }
+
+    .request button,
+    .my-request a {
+      background-color: #fff;
+      color: #2a2a2a;
+    }
+
+    .request button:hover,
+    .my-request a:hover {
+      background-color: #696969;
+      color: #fff;
+    }
+  }
+
+  /* ------------------------------------------------------------- */
+/* ADMIN */
+.main-admin {
+  background-color: #2a2a2a;
+
+  h1 {
+    color: #fff;
+  }
+}
+}

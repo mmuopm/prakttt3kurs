@@ -1,0 +1,298 @@
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  gap: 230px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo h1 {
+  font-size: 28px;
+  font-family: "sem";
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header nav .links ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header nav .btns {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header .links {
+  position: relative;
+}
+header .links a {
+  font-size: 18px;
+  position: relative;
+}
+
+header .links a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #18272f;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+header .links a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+header .links .active {
+  font-weight: 600;
+}
+
+.menu-414 {
+  display: none;
+}
+
+.sub-menu-414 {
+  display: none;
+}
+
+footer {
+  display: block;
+}
+
+.footer-top {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 357px;
+}
+
+.footer-top .links {
+  display: flex;
+  gap: 80px;
+  position: relative;
+}
+.footer-top .links a {
+  font-size: 18px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-top .links a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #18272f;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-top .links a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.footer-top .links .active {
+  font-weight: 600;
+}
+
+.footer-top .links .active {
+  font-weight: 600;
+}
+
+footer .links-training a {
+  margin: 0;
+  padding: 0;
+  width: 500px;
+}
+
+.footer-bottom {
+  height: 100px;
+  background-color: #2c2c2c;
+}
+
+.footer-bottom-content p {
+  font-size: 16px;
+  font-family: "reg";
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  margin-left: 280px;
+}
+
+.footer-mobile {
+  display: none;
+}
+
+html.dark_style {
+  /* INDEX */
+  /* --------------------------------------------------- */
+  /* ABOUT */
+  /* --------------------------------------------------- */
+  /* SERVICES */
+  /* ------------------------------------------------------------- */
+  /* CONTACTS*/
+  /* ------------------------------------------------------------- */
+  /* TRAINING*/
+  /* ------------------------------------------------------------- */
+  /* REQUEST */
+  /* ------------------------------------------------------------- */
+  /* ADMIN */
+}
+html.dark_style .block2 {
+  background-color: #2a2a2a;
+}
+html.dark_style .block2 h1,
+html.dark_style .block2 h2,
+html.dark_style .block2 .block2-cards h2,
+html.dark_style .block2 .block2-cards p {
+  color: #fff;
+}
+html.dark_style .block4 {
+  background-color: #2a2a2a;
+}
+html.dark_style .block4 h1 {
+  color: #fff;
+}
+html.dark_style .block4 .block4-cards-top .card {
+  background-color: #696969;
+}
+html.dark_style .main-about {
+  background-color: #2a2a2a;
+}
+html.dark_style .main-about h1,
+html.dark_style .main-about .about-block1 p,
+html.dark_style .main-about .about-block3 h1,
+html.dark_style .main-about .about-block3 h2,
+html.dark_style .main-about .about-block3 p {
+  color: #fff;
+}
+html.dark_style .main-about .about-block3-cards .card img {
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+html.dark_style .main-about .connection-button {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+html.dark_style .main-about .connection-button:hover {
+  background-color: #696969;
+  color: #fff;
+}
+html.dark_style .main-services {
+  background-color: #2a2a2a;
+}
+html.dark_style .main-services h1,
+html.dark_style .main-services .services-cards .card h2,
+html.dark_style .main-services .services-cards .card p {
+  color: #fff;
+}
+html.dark_style .main-services .services-cards .card {
+  background-color: #171717;
+}
+html.dark_style .main-services .services-cards .card-black {
+  background-color: #4e4e4e;
+}
+html.dark_style .main-services .connection-button {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+html.dark_style .main-services .connection-button:hover {
+  background-color: #696969;
+  color: #fff;
+}
+html.dark_style .main-contacts {
+  background-color: #2a2a2a;
+}
+html.dark_style .main-contacts h1,
+html.dark_style .main-contacts .main-contacts-content h2,
+html.dark_style .main-contacts .contacts-forma p,
+html.dark_style .main-contacts .contacts-content-text p,
+html.dark_style .main-contacts .contacts-content-text h3 {
+  color: #fff;
+}
+html.dark_style .main-contacts .contacts-forma button {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+html.dark_style .main-contacts .contacts-forma button:hover {
+  background-color: #696969;
+  color: #fff;
+}
+html.dark_style .main-contacts .contacts-content img {
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+html.dark_style .main-contacts .contacts-content-text .social img {
+  background-color: #fff;
+  border-radius: 10%;
+}
+html.dark_style .main-training {
+  background-color: #2a2a2a;
+}
+html.dark_style .main-training h1 {
+  color: #fff;
+}
+html.dark_style .main-training .connection-button {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+html.dark_style .main-training .connection-button:hover {
+  background-color: #696969;
+  color: #fff;
+}
+html.dark_style .main-request {
+  background-color: #2a2a2a;
+}
+html.dark_style .main-request h1,
+html.dark_style .main-request .request h2,
+html.dark_style .main-request .request p,
+html.dark_style .main-request .form-rate legend,
+html.dark_style .main-request .form-rate label,
+html.dark_style .main-request table thead th {
+  color: #fff;
+}
+html.dark_style .main-request .request button,
+html.dark_style .main-request .my-request a {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+html.dark_style .main-request .request button:hover,
+html.dark_style .main-request .my-request a:hover {
+  background-color: #696969;
+  color: #fff;
+}
+html.dark_style .main-admin {
+  background-color: #2a2a2a;
+}
+html.dark_style .main-admin h1 {
+  color: #fff;
+}/*# sourceMappingURL=dark.css.map */

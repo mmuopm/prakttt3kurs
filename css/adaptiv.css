@@ -1,0 +1,1012 @@
+@charset "UTF-8";
+@media (max-width: 866px) {
+  .container {
+    width: 796px;
+    padding-left: 30px;
+  }
+  /* header */
+  .main-menu {
+    gap: 50px;
+  }
+  .logo h1 {
+    font-size: 18px;
+  }
+  .logo img {
+    width: 30px;
+    height: 32px;
+  }
+  header .links a {
+    font-size: 13px;
+  }
+  header nav .links ul {
+    gap: 10px;
+  }
+  header nav .btns {
+    gap: 15px;
+  }
+  header nav .btns img {
+    width: 30px;
+    height: 30px;
+  }
+  /* ------------------------------------------------------------- */
+  /* INDEX */
+  /* main */
+  .main {
+    height: 426px;
+  }
+  .main-content {
+    padding-left: 30px;
+    padding-top: 187px;
+  }
+  .main-content h1 {
+    font-size: 32px;
+    width: 444px;
+    margin-bottom: 26px;
+  }
+  .main-content a {
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  /* block2 */
+  .block2-content {
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .block2-content h1 {
+    font-size: 24px;
+  }
+  .block2-cards {
+    padding-top: 30px;
+    gap: 30px;
+    padding-bottom: 50px;
+  }
+  .block2-cards h2 {
+    font-size: 36px;
+  }
+  .block2-cards p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .block2-cards .card2 p {
+    width: 248px;
+  }
+  /* block3 */
+  .block3 {
+    height: 492px;
+  }
+  .block3-content {
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .block3-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .block3-content p {
+    font-size: 15px;
+    font: 441px;
+  }
+  .block3-cards {
+    margin-top: 30px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+  }
+  .block3-cards img {
+    width: 38px;
+    height: 35px;
+  }
+  .block3-cards .card {
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .block3-cards .card p {
+    font-size: 12px;
+    width: 232px;
+  }
+  /* block4 */
+  .block4 {
+    height: 704px;
+  }
+  .block4-content {
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .block4-content .h1-btn h1 {
+    font-size: 20px;
+  }
+  .block4-content .h1-btn a {
+    padding: 10px 30px;
+    font-size: 12px;
+  }
+  .block4-cards {
+    padding-top: 30px;
+  }
+  .block4-cards-top {
+    gap: 15px;
+    padding-bottom: 15px;
+  }
+  .block4-cards-top .card {
+    width: 173px;
+    height: 150px;
+  }
+  .block4-cards-top .card img {
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  .block4-cards-top .card p {
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .block4-cards-bottom {
+    height: 342px;
+    width: 738px;
+  }
+  .block4-cards-bottom h1 {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .block4-cards-bottom p {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* ------------------------------------------------------------- */
+  /* ABOUT */
+  .main-about h1 {
+    padding-top: 50px;
+    font-size: 24px;
+    text-align: center;
+  }
+  /* about - block1*/
+  .main-about .about-block1 {
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .main-about .about-block1 p {
+    width: 364px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .main-about .about-block1 img {
+    width: 460px;
+    height: 327px;
+  }
+  /* about - block2*/
+  .about-block2 {
+    width: 594px;
+    height: 210px;
+  }
+  .about-block2 h2 {
+    font-size: 24px;
+  }
+  .about-block2 p {
+    width: 439px;
+    font-size: 16px;
+  }
+  /* about - block3*/
+  .about-block3 {
+    padding-top: 50px;
+  }
+  .about-block3 h1 {
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
+  .about-block3-cards .card {
+    gap: 10px;
+    padding-bottom: 30px;
+  }
+  .about-block3-cards .card img {
+    width: 92px;
+    height: 88px;
+  }
+  .about-block3-cards .card .card-text h2 {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  .about-block3-cards .card .card-text p {
+    font-size: 16px;
+    width: 523px;
+  }
+  .about-block3 .connection {
+    padding-bottom: 100px;
+  }
+  .connection-button {
+    width: 451px;
+  }
+  /* ------------------------------------------------------------- */
+  /* SERVICES*/
+  .main-services h1 {
+    padding-top: 40px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .main-services .services-cards {
+    padding-top: 30px;
+    gap: 15px;
+  }
+  .main-services .services-cards .card {
+    width: 255px;
+    height: 343px;
+  }
+  .main-services .services-cards .card h2 {
+    font-size: 15px;
+    padding: 10px 0 10px 10px;
+    width: 219px;
+    line-height: 20px;
+  }
+  .main-services .services-cards .card p {
+    font-size: 13px;
+    padding-left: 10px;
+    width: 240px;
+  }
+  .main-services .services-cards .card img {
+    width: 255px;
+    height: 163px;
+  }
+  .main-services .connection {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+  /* ------------------------------------------------------------- */
+  /* CONTACTS*/
+  .main-contacts h1 {
+    padding-top: 50px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .main-contacts-content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    display: block;
+  }
+  .main-contacts-content h2 {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  /* контакты */
+  .contacts {
+    margin-top: 50px;
+  }
+  .yandex {
+    height: 321px;
+  }
+  /* ------------------------------------------------------------- */
+  /* TRAINING*/
+  .main-training {
+    padding-bottom: 80px;
+  }
+  .main-training h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 24px;
+  }
+  .carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 431px;
+  }
+  .carousel-item h1 {
+    padding-left: 50px;
+    padding-top: 235px;
+    padding-bottom: 15px;
+    font-size: 24px;
+  }
+  .carousel-item p {
+    width: 430px;
+    font-size: 18px;
+    padding-left: 50px;
+  }
+  .main-training .connection {
+    padding-bottom: 80px;
+  }
+  /* ------------------------------------------------------------- */
+  /* REQUEST */
+  .main-request {
+    padding-bottom: 80px;
+  }
+  .main-request h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 24px;
+  }
+  .request {
+    margin-left: 116px;
+  }
+  .request h2 {
+    font-size: 22px;
+  }
+  .request p {
+    font-size: 14px;
+  }
+  .my-request a {
+    margin-left: 150px;
+  }
+  table {
+    margin-bottom: 50px;
+    border-spacing: 0;
+    margin-left: 0px;
+  }
+  table thead {
+    text-align: left;
+  }
+  table thead th {
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+  table tbody th {
+    font-size: 14px;
+  }
+  table .forma-sobst,
+  table .kolvo-sotrud,
+  table .status {
+    padding-left: 50px;
+  }
+  .form-rate legend {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .form-rate label {
+    font-size: 16px;
+  }
+  /* ------------------------------------------------------------- */
+  /* ADMIN */
+  .main-admin {
+    padding-bottom: 80px;
+  }
+  .main-admin h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 24px;
+  }
+  .request-cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .request-cards .card {
+    width: 369px;
+    height: 356px;
+  }
+  .request-cards .card .card-content {
+    padding: 25px 10px;
+  }
+  .request-cards .card .str {
+    margin-bottom: 10px;
+  }
+  .request-cards .str p {
+    font-size: 14px;
+  }
+  .request-cards .select-btn {
+    padding-top: 10px;
+  }
+  .request-cards select {
+    width: 167px;
+    height: 36px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .request-cards select option {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .request-cards button {
+    padding: 7px 35px;
+    font-size: 14px;
+  }
+  /* ------------------------------------------------------------- */
+  /* FOOTER */
+  .footer-top {
+    gap: 100px;
+  }
+  .footer-top .links {
+    gap: 36px;
+  }
+  .footer-top .links1 a {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .footer-bottom {
+    height: 80px;
+  }
+  .footer-bottom-content p {
+    font-size: 12px;
+    margin-left: 58px;
+  }
+}
+/* ------------------------------------------------------------- */
+@media (max-width: 414px) {
+  .container {
+    width: 382px !important;
+    padding-left: 0;
+  }
+  /* burger */
+  .main-menu {
+    display: none;
+  }
+  .menu-414 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 74px;
+  }
+  .menu-414 .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .sub-menu-414 {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    background-color: #fff;
+    padding: 15px 25px 10px 30px;
+    border-radius: 0 0px 0px 20px;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+    display: block;
+    visibility: hidden; /* Скрываем подменю по умолчанию */
+    opacity: 0;
+  }
+  .sub-menu-414 a {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .activeSubmenu {
+    transform: scale(1);
+    visibility: visible; /* Делаем подменю видимым */
+    opacity: 1;
+  }
+  .menu-414:hover + .sub-menu-414 {
+    display: block;
+    transform: scale(1);
+    z-index: 3;
+  }
+  /* ------------------------------------------------------------- */
+  /* INDEX */
+  .main-about h1 {
+    padding-top: 50px;
+    font-size: 24px;
+    text-align: center;
+  }
+  /* main */
+  .main {
+    height: 275px;
+  }
+  .main-content {
+    display: block;
+    padding-left: 10px;
+    padding-top: 127px;
+  }
+  .main-content h1 {
+    font-size: 24px;
+    width: 319px;
+    margin-bottom: 15px;
+  }
+  .main-content a {
+    padding: 5px 20px;
+    font-size: 12px;
+  }
+  /* block2 */
+  .block2-content {
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+  .block2-content h1 {
+    font-size: 20px;
+  }
+  .block2-cards {
+    padding-top: 25px;
+    gap: 10px;
+    padding-bottom: 30px;
+  }
+  .block2-cards h2 {
+    font-size: 24px;
+  }
+  .block2-cards p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .block2-cards .card1 p {
+    width: 101px;
+    margin: 0;
+    padding: 0;
+  }
+  .block2-cards .card2 p {
+    width: 147px;
+  }
+  .block2-cards .card3 p {
+    width: 129px;
+  }
+  /* block3 */
+  .block3 {
+    height: 585px;
+  }
+  .block3-content {
+    padding-top: 30px;
+    padding-left: 15px;
+  }
+  .block3-content h1 {
+    font-size: 20px;
+  }
+  .block3-content p {
+    font-size: 12px;
+    color: #fff;
+  }
+  .block3-cards {
+    margin-top: 30px;
+    display: block;
+    margin-left: 44px;
+  }
+  .block3-cards .card {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  .block3-cards .card img {
+    width: 25px;
+    height: 21px;
+  }
+  .block3-cards .card p {
+    font-size: 10px;
+    width: 208px;
+  }
+  /* block4 */
+  .block4 {
+    height: 754px;
+  }
+  .block4-content {
+    padding-top: 30px;
+    padding-left: 15px;
+  }
+  .block4-content .h1-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .block4-content .h1-btn h1 {
+    font-size: 20px;
+  }
+  .block4-content .h1-btn a {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+  .block4-cards {
+    padding-top: 30px;
+  }
+  .block4-cards-top {
+    display: block;
+    gap: 15px;
+    padding-bottom: 0;
+  }
+  .block4-cards12 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  .block4-cards-top .card {
+    background-color: #2a2a2a;
+    width: 174px;
+    height: 145px;
+  }
+  .block4-cards-top .card img {
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 40px;
+    height: 45px;
+  }
+  .block4-cards-top .card p {
+    padding-left: 10px;
+  }
+  .block4-cards-bottom {
+    height: 278px;
+    width: 362px;
+  }
+  .block4-cards-bottom h1 {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-top: 30px;
+  }
+  .block4-cards-bottom p {
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  /* ------------------------------------------------------------ */
+  /* ABOUT */
+  .main-about h1 {
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  /* about - block1*/
+  .main-about .about-block1 {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  .main-about .about-block1 p {
+    width: 353px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .main-about .about-block1 img {
+    height: 224px;
+  }
+  /* about - block2*/
+  .about-block2 {
+    width: 357px;
+    height: 120px;
+    border-radius: 20px;
+  }
+  .about-block2 h2 {
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin-left: 30px;
+  }
+  .about-block2 p {
+    font-size: 11px;
+    width: 288px;
+    margin-left: 42px;
+  }
+  /* about - block3*/
+  .about-block3 {
+    padding-top: 0px;
+  }
+  .about-block3 h1 {
+    font-size: 20px;
+    padding-bottom: 25px;
+  }
+  .about-block3-cards .card {
+    gap: 10px;
+    padding-bottom: 15px;
+  }
+  .about-block3-cards .card img {
+    width: 42px;
+    height: 39px;
+  }
+  .about-block3-cards .card .card-text p {
+    font-size: 10px;
+    width: 317px;
+  }
+  .about-block3-cards .card .card-text h2 {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  .about-block3 .connection {
+    padding-top: 25px;
+    padding-bottom: 60px;
+  }
+  .connection-button {
+    width: 343px;
+    height: 42px;
+    border-radius: 20px;
+    padding: 10px 90px;
+    font-size: 16px;
+  }
+  /* ------------------------------------------------------------- */
+  /* SERVICES*/
+  .main-services {
+    padding-bottom: 40px;
+  }
+  .main-services h1 {
+    padding-top: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .main-services .services-cards {
+    padding-top: 25px;
+    gap: 5px;
+  }
+  .main-services .services-cards .card {
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    width: 129px;
+    height: 224px;
+  }
+  .main-services .services-cards .card h2 {
+    font-size: 11px;
+    padding: 5px 0 5px 5px;
+    width: 120px;
+    line-height: 15px;
+  }
+  .main-services .services-cards .card p {
+    font-size: 8px;
+    padding-left: 5px;
+    width: 117px;
+    line-height: 10px;
+  }
+  .main-services .services-cards .card img {
+    width: 129px;
+    height: 93px;
+  }
+  .main-services .services-cards .card-black {
+    background-color: #2c2c2c;
+  }
+  .main-services .services-cards .card-black h2 {
+    color: #fff;
+  }
+  .main-services .connection {
+    padding-top: 25px;
+    padding-bottom: 0px;
+  }
+  /* ------------------------------------------------------------- */
+  /* CONTACTS*/
+  .main-contacts h1 {
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  .main-contacts-content {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    display: block;
+  }
+  .main-contacts-content h2 {
+    font-size: 17px;
+    padding-bottom: 20px;
+  }
+  /* форма */
+  .contacts-forma input {
+    width: 367px;
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+  .textarea-message {
+    width: 367px;
+    height: 112px;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 12px;
+  }
+  .contacts-forma input::placeholder,
+  .textarea-message::placeholder {
+    font-size: 12px;
+  }
+  .contacts-forma button {
+    margin-top: 30px;
+    padding: 10px 65px;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  .contacts-forma p {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  /* контакты */
+  .contacts-content {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  .contacts-content img {
+    width: 42px;
+    height: 39px;
+  }
+  .contacts-content-text h3 {
+    font-size: 14px;
+  }
+  .contacts-content-text p {
+    padding-top: 5px;
+    font-size: 10px;
+  }
+  .contacts-content-text .social {
+    padding-top: 5px;
+  }
+  .social img {
+    width: 20px;
+    height: 22px;
+  }
+  .yandex {
+    width: 100%;
+    height: 221px;
+  }
+  /* ------------------------------------------------------------- */
+  /* TRAINING*/
+  .main-training {
+    background-color: #e9e9e9;
+    padding-bottom: 40px;
+  }
+  .main-training h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .carousel-item {
+    width: 100%;
+    height: 368px;
+  }
+  .carousel-item h1 {
+    padding-left: 30px;
+    padding-top: 160px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    width: 243px;
+    text-align: left;
+  }
+  .carousel-item p {
+    width: 210px;
+    font-size: 12px;
+    padding-left: 30px;
+  }
+  .connection-button {
+    width: 341px;
+    height: 53px;
+    padding: 10px 90px;
+  }
+  .main-training .connection {
+    padding-top: 40px;
+    text-align: center;
+  }
+  /* ------------------------------------------------------------- */
+  /* REQUEST */
+  .main-request {
+    padding-bottom: 40px;
+  }
+  .main-request h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+  }
+  .request {
+    margin-left: 20px;
+  }
+  .request h2 {
+    padding-bottom: 25px;
+    font-size: 18px;
+  }
+  .request p {
+    font-size: 10px;
+  }
+  .request button {
+    margin-top: 20px;
+    padding: 10px 84px;
+    font-size: 16px;
+  }
+  .my-request a {
+    padding: 10px 84px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  table {
+    margin-bottom: 50px;
+    border-spacing: 0;
+    margin-left: 0px;
+  }
+  table thead th {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  table tbody th {
+    font-size: 10px;
+    padding: 10px;
+  }
+  table .forma-sobst,
+  table .kolvo-sotrud,
+  table .status {
+    padding-left: 5px;
+  }
+  .form-rate legend {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .form-rate .radio-div {
+    margin-bottom: 10px;
+  }
+  .form-rate input[type=radio] {
+    width: 15px;
+    height: 15px;
+  }
+  .form-rate label {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+  /* ------------------------------------------------------------- */
+  /* ADMIN */
+  .main-admin {
+    padding-bottom: 50px;
+  }
+  .main-admin h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+  .request-cards {
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  .request-cards .card {
+    width: 165px;
+    height: 271px;
+  }
+  .request-cards .card .card-content {
+    padding: 20px 10px;
+  }
+  .request-cards .card .str {
+    margin-bottom: 10px;
+  }
+  .request-cards .str p {
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .request-cards .select-btn {
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .request-cards select {
+    width: 97px;
+    height: 18px;
+    padding: 4px 8px;
+    font-size: 8px;
+  }
+  .request-cards select option {
+    font-size: 8px;
+  }
+  .request-cards button {
+    padding: 4px 8px;
+    font-size: 8px;
+    line-height: 10px;
+    margin-top: 10px;
+  }
+  /* ------------------------------------------------------------- */
+  /* FOOTER */
+  .footer-bottom {
+    height: 50px;
+  }
+  .footer-bottom-content p {
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 100px;
+  }
+  footer .footer-top {
+    display: none;
+  }
+  /* footer mobile */
+  .footer-mobile {
+    display: block;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .footer-mobile .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-mobile .footer-mobile-links {
+    text-align: center;
+  }
+  .footer-mobile .footer-mobile-links a {
+    font-size: 12px;
+  }
+  .footer-mobile-links-top {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 15px;
+  }
+  .footer-mobile-links-right a,
+  .footer-mobile-links-left a {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=adaptiv.css.map */
