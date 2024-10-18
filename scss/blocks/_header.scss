@@ -6,7 +6,8 @@ header {
 .main-menu {
   display: flex;
   align-items: center;
-  gap: 230px;
+  justify-content: space-between;
+  padding-right: 30px;
 }
 
 .logo {
@@ -69,12 +70,242 @@ header .links .active {
   font-weight: 600;
 }
 
-.menu-414 {
+.menu-375,
+.sub-menu-375 {
   display: none;
 }
 
-.sub-menu-414 {
-  display: none;
+@media (max-width: 768px) {
+  .menu-375,
+  .sub-menu-375 {
+    display: none;
+  }
+
+  .main-menu {
+    gap: 60px;
+    .logo h1 {
+      font-size: 18px;
+    }
+
+    .logo img {
+      width: 30px;
+      height: 32px;
+    }
+  }
+
+  header {
+    .links a {
+      font-size: 12px;
+    }
+
+    nav {
+      gap: 20px;
+    }
+
+    nav .links ul {
+      gap: 15px;
+    }
+
+    nav .btns {
+      gap: 10px;
+    }
+
+    nav .btns img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  /* -------------------------------------------------- */
+  /* LOGIN AND REGISTR */
+  .popups {
+    display: none; /* Скрываем окна по умолчанию */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .popup,
+  .popup2 {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 458px;
+    height: auto;
+  }
+
+  .x {
+    margin-top: 15px;
+    margin-left: 402px;
+  }
+
+  .form-login input,
+  .form-registr input {
+    width: 357px;
+    height: 64px;
+    font-size: 14px;
+  }
+
+  .popup-btns button,
+  .popup-btns2 button {
+    padding: 15px 100px;
+    margin-left: 20px;
+  }
+
+  .popup-btns .open-registr,
+  .popup-btns2 .open-registr {
+    padding: 15px 80px;
+  }
+
+  .popup-btns .or {
+    font-size: 16px;
+    margin-left: 216px;
+  }
+
+  .popup p,
+  .popup2 p {
+    font-size: 12px;
+  }
+
+  .popup-btns2 button {
+    padding: 15px 80px;
+  }
 }
 
+@media (max-width: 375px) {
+  .main-menu {
+    display: none;
+  }
+  /* burger */
+  .menu-375 {
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    .logo {
+      margin-left: 20px;
+    }
+
+    .logo h1 {
+      font-size: 18px;
+    }
+
+    .logo img {
+      width: 30px;
+    }
+    .btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .btns img {
+      width: 27px;
+    }
+  }
+
+  .sub-menu-375 {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    background-color: #fff;
+    padding: 15px 25px 10px 30px;
+    border-radius: 0 0px 0px 20px;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+    display: block;
+    visibility: hidden; /* Скрываем подменю по умолчанию */
+    opacity: 0;
+
+    a {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+  }
+
+  .activeSubmenu {
+    transform: scale(1);
+    visibility: visible; /* Делаем подменю видимым */
+    opacity: 1;
+  }
+
+  /* -------------------------------------------------- */
+  /* LOGIN AND REGISTR */
+  .popups {
+    display: none; /* Скрываем окна по умолчанию */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .popup,
+  .popup2 {
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    width: 278px;
+    height: auto;
+  }
+
+  .x {
+    margin-left: 232px;
+  }
+
+  .popups h1 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .form-login input,
+  .form-registr input {
+    width: 210px;
+    height: 34px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+
+  .form-login input::placeholder {
+    font-size: 12px;
+  }
+
+  .popup-btns button,
+  .popup-btns2 button {
+    margin-top: 10px;
+    padding: 10px 60px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .popup-btns2 button {
+    padding: 10px 40px;
+  }
+
+  .popup-btns .open-registr {
+    padding: 10px 40px;
+  }
+
+  .popup p,
+  .popup2 p {
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .popup-btns .or {
+    font-size: 14px;
+    margin-left: 126px;
+  }
+}
